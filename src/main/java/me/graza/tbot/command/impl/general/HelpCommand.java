@@ -35,7 +35,8 @@ public class HelpCommand extends Command {
 
       EmbedBuilder embed = new EmbedBuilder()
         .setAuthor("Help [" + commands.size() + "]",
-          null, ctx.interaction().getUser().getAvatar())
+          "https://github.com/aestheticalll/translate-bot",
+          ctx.interaction().getUser().getAvatar())
         .setColor(EMBED_COLOR);
 
       int padding = 0;
