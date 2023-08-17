@@ -1,8 +1,8 @@
 <configuration debug="false">
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/lavaboat.log</file>
+        <file>logs/translate_bot.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/lavaboat.%d{yyyyMMdd}.log</fileNamePattern>
+            <fileNamePattern>logs/translate_bot.%d{yyyyMMdd}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>
