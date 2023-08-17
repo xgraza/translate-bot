@@ -1,0 +1,4 @@
+token=your_token_here
+owners=your_id(s)_separated_by_a_comma
+deepl_api_key=get ur own
+mongodb_uri=yes
